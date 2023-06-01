@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="css/lete.css">
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/late.js"></script>
+</head>
+
+<body>
+
+  <header>
+
+    <!-- mobile top -->
+    <div class="top">
+
+      <div class="topham">
+        <button class="hamburger">&#9776;</button>
+      </div>
+
+      <div class="toplogo">
+        <a href="main.html"><img src="miumiuicon/logo_white.png" alt="w_l"></a>
+      </div>
+
+      <div class="topbag">
+        <a href="#"><img src="miumiuicon/bag_white.png" alt="w_b"></a>
+      </div>
+
+      <!-- login -->
+      <div class="login-model">
+        <h2>로그인</h2>
+
+        <div class="login-close-switch">x</div>
+
+        <form>
+          <div class="login-moderl-form">
+            <input type="id" class="login-input" required placeholder="이메일 *">
+          </div>
+          <div class="login-moderl-form">
+            <input type="password" class="login-input" required required placeholder="비밀번호를 입력하세요 *">
+          </div>
+
+          <div class="pwcheck">비밀번호 찾기</div>
+          <div class="mysave"><input type="checkbox" value="개인회원" name="chk1">내 정보 저장</div>
+
+          <div class="form_group1"><button type="submit" class="btn">로그인</button></div>
+        </form>
+
+        <h2>계정 만들기</h2>
+        <p>좋아하는 상품을 위시 리스트에 추가하세요.<br><br>
+          빠른 결제를 위해 연락처 정보를 저장하세요.<br><br>
+          주문 상태를 확인하세요.</p>
+        <div class="form_group2"><button type="submit" class="btn_b">계정 만들기</button></div>
+      </div>
+
+      <!-- join -->
+      <div class="join-model">
+        <h2>회원가입</h2>
+
+        <div class="join-close-switch">x</div>
+
+        <form>
+          <!-- 이름 -->
+          <div class="join-moderl-form">
+            <input type="name" class="join-input" required placeholder="이름 *">
+          </div>
+          <!-- 이메일 -->
+          <div class="join-moderl-form">
+            <input type="email" class="join-input" required placeholder="이메일 *">
+          </div>
+          <!-- 비밀번호 -->
+          <div class="join-moderl-form">
+            <input type="password" class="join-input" required required placeholder="비밀번호 *">
+            <span>암호는 8~16자여야 합니다.</span>
+          </div>
+          <!-- 비밀번호 확인 -->
+          <div class="join-moderl-form">
+            <input type="password" class="join-input" required required placeholder="비밀번호 확인 *">
+          </div>
+          <!-- 동의란 -->
+          <div class="ok"><input type="checkbox" value="개인회원" name="chk1">조건 과 개인 정보 보호정책을 읽고 동의합니다.</div>
+          <div class="ok"><input type="checkbox" value="개인회원" name="chk1">상업적 커뮤니케이션 수신에 동의합니다.</div>
+        </form>
+        <div class="form_group3"><button type="submit" class="btn_j">계정 만들기</button></div>
+      </div>
+
+
+      <div class="topsearch">
+        <a href="#"><img src="miumiuicon/search_white.png" alt="w_s"></a>
+      </div>
+
+      <!-- Search model -->
+      <div class="search-model">
+
+        <div class="search-close-switch">x</div>
+        <form class="search-moderl-form">
+          <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+      </div>
+
+    </div>
+
+
+
+    <!-- tablet top -->
+    <div class="tablettop">
+
+      <div class="t_topham">
+        <button class="t_hamburger">&#9776;</button>
+      </div>
+
+      <div class="t_toplogo">
+        <a href="main.html"><img src="miumiuicon/logo_bk.png" alt="w_l"></a>
+      </div>
+
+      <div class="t_topbag">
+        <a href="#"><img src="miumiuicon/bag_bk.png" alt="w_b"></a>
+      </div>
+      <!-- login -->
+      <div class="login-model">
+        <h2>로그인</h2>
+
+        <div class="login-close-switch">x</div>
+
+        <form>
+          <div class="login-moderl-form">
+            <input type="id" class="login-input" required placeholder="이메일 *">
+          </div>
+          <div class="login-moderl-form">
+            <input type="password" class="login-input" required required placeholder="비밀번호를 입력하세요 *">
+          </div>
+
+          <div class="pwcheck">비밀번호 찾기</div>
+          <div class="mysave"><input type="checkbox" value="개인회원" name="chk1">내 정보 저장</div>
+
+          <div class="form_group1"><button type="submit" class="btn">로그인</button></div>
+        </form>
+
+        <h2>계정 만들기</h2>
+        <p>좋아하는 상품을 위시 리스트에 추가하세요.<br><br>
+          빠른 결제를 위해 연락처 정보를 저장하세요.<br><br>
+          주문 상태를 확인하세요.</p>
+        <div class="form_group2"><button type="submit" class="btn_b">계정 만들기</button></div>
+      </div>
+
+      <!-- join -->
+      <div class="join-model">
+        <h2>회원가입</h2>
+
+        <div class="join-close-switch">x</div>
+
+        <form>
+          <!-- 이름 -->
+          <div class="join-moderl-form">
+            <input type="name" class="join-input" required placeholder="이름 *">
+          </div>
+          <!-- 이메일 -->
+          <div class="join-moderl-form">
+            <input type="email" class="join-input" required placeholder="이메일 *">
+          </div>
+          <!-- 비밀번호 -->
+          <div class="join-moderl-form">
+            <input type="password" class="join-input" required required placeholder="비밀번호 *">
+            <span>암호는 8~16자여야 합니다.</span>
+          </div>
+          <!-- 비밀번호 확인 -->
+          <div class="join-moderl-form">
+            <input type="password" class="join-input" required required placeholder="비밀번호 확인 *">
+          </div>
+          <!-- 동의란 -->
+          <div class="ok"><input type="checkbox" value="개인회원" name="chk1">조건 과 개인 정보 보호정책을 읽고 동의합니다.</div>
+          <div class="ok"><input type="checkbox" value="개인회원" name="chk1">상업적 커뮤니케이션 수신에 동의합니다.</div>
+        </form>
+        <div class="form_group3"><button type="submit" class="btn_j">계정 만들기</button></div>
+      </div>
+
+      <div class="t_topsearch">
+        <a href="#"><img src="miumiuicon/search_bk.png" alt="w_s"></a>
+      </div>
+
+      <!-- Search model -->
+      <div class="search-model">
+        <div class="search-close-switch">x</div>
+        <form class="search-moderl-form">
+          <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+      </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- pc top -->
+    <div class="pcheader_hea1">
+
+      <div class="pcheader">
+        <div class="pctoplogo">
+          <a href="main.html"><img src="miumiuicon/logo_bk.png" alt="w_l"></a>
+        </div>
+
+        <div class="pctopbag">
+          <a href="#"><img src="miumiuicon/bag_bk.png" alt="w_b"></a>
+        </div>
+
+        <!-- pclogin -->
+        <div class="pclogin-model">
+
+          <div class="model1">
+            <h2>로그인</h2>
+            <div class="pclogin-close-switch">x</div>
+            <form>
+              <div class="pclogin-moderl-form">
+                <input type="id" class="pclogin-input" required placeholder="이메일 *">
+              </div>
+              <div class="pclogin-moderl-form">
+                <input type="password" class="pclogin-input" required required placeholder="비밀번호를 입력하세요 *">
+              </div>
+
+              <div class="pcpwcheck">비밀번호 찾기</div>
+              <div class="pcmysave"><input type="checkbox" value="개인회원" name="chk1">내 정보 저장</div>
+
+              <div class="pcform_group1"><button type="submit" class="btn">로그인</button></div>
+            </form>
+          </div>
+
+          <div class="model2">
+            <h2>계정 만들기</h2>
+            <p>- 좋아하는 상품을 위시 리스트에 추가하세요.<br><br>
+              - 빠른 결제를 위해 연락처 정보를 저장하세요.<br><br>
+              - 주문 상태를 확인하세요.</p>
+            <div class="pcform_group2"><button type="submit" class="pcbtn_b">계정 만들기</button></div>
+          </div>
+        </div>
+
+
+        <!-- join -->
+        <div class="pcjoin-model">
+          <h2>회원가입</h2>
+          <div class="pcjoin-close-switch">x</div>
+
+          <div class="model3">
+            <form>
+              <!-- 이름 -->
+              <div class="pcjoin-moderl-form">
+                <input type="name" class="pcjoin-input" required placeholder="이름 *">
+              </div>
+              <!-- 이메일 -->
+              <div class="pcjoin-moderl-form">
+                <input type="email" class="pcjoin-input" required placeholder="이메일 *">
+              </div>
+              <div class="pcok"><input type="checkbox" value="개인회원" name="chk1">조건 과 개인 정보 보호정책을 읽고 동의합니다.</div>
+          </div>
+
+          <div class="model4">
+            <!-- 비밀번호 -->
+            <div class="pcjoin-moderl-form">
+              <input type="password" class="pcjoin-input" required required placeholder="비밀번호 *">
+              <span>암호는 8~16자여야 합니다.</span>
+            </div>
+            <!-- 비밀번호 확인 -->
+            <div class="pcjoin-moderl-form">
+              <input type="password" class="pcjoin-input" required required placeholder="비밀번호 확인 *">
+            </div>
+            <div class="pcok"><input type="checkbox" value="개인회원" name="chk1">상업적 커뮤니케이션 수신에 동의합니다.</div>
+            </form>
+          </div>
+
+          <div class="pcform_group4"><button type="submit" class="pcbtn_j">계정 만들기</button></div>
+        </div>
+
+        <div class="pctopsearch" class="sear">
+          <a href="#"><img src="miumiuicon/search_bk.png" alt="w_s"></a>
+        </div>
+      </div>
+
+      <!-- Search model -->
+      <div class="search-model">
+        <div class="search-close-switch">x</div>
+        <form class="search-moderl-form">
+          <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+      </div>
+
+      <nav id="pcmainmenu">
+        <ul id="pcmenubox">
+          <li><a href="#">컬렉션</a></li>
+          <li><a href="#">신상품</a></li>
+          <li><a href="#">가방</a></li>
+        </ul>
+        <li><a href="#">MIU WANDER</a></li>
+        <li><a href="#">MIU MIU CLUB</a></li>
+      </nav>
+
+    </div>
+
+
+
+
+    <!-- pcmenu -->
+
+    <div class="pcmenu">
+
+      <div class="pcheader_hea2">
+
+        <div class="pcheader">
+          <div class="pctoplogo">
+            <a href="main.html"><img src="miumiuicon/logo_white.png" alt="w_l"></a>
+          </div>
+
+          <div class="pctopbag">
+            <a href="#"><img src="miumiuicon/bag_white.png" alt="w_b"></a>
+          </div>
+
+          <div class="pctopsearch">
+            <a href="#"><img src="miumiuicon/search_white.png" alt="w_s"></a>
+          </div>
+        </div>
+
+        <nav id="pcmainmenu">
+          <ul id="pcmenubox">
+            <li><a href="#">컬렉션</a></li>
+            <li><a href="#">신상품</a></li>
+            <li><a href="#">가방</a></li>
+          </ul>
+          <li><a href="#">MIU WANDER</a></li>
+          <li><a href="#">MIU MIU CLUB</a></li>
+        </nav>
+
+      </div>
+
+
+      <div id="pcsubmenu">
+
+        <div id="pcsubmenubox">
+          <ul class="sub1">
+            <li><a href="#">하이라이트</a></li>
+            <li><a href="#">2023 봄-여름 컬렉션</a></li>
+            <li><a href="#">NEW BALANCE X MIU MIU</a></li>
+            <li><a href="#">MIU MIU FLEUR DE LAIT</a></li>
+            <li><a href="#">신상품</a></li>
+            <li><a href="#">기프트</a></li>
+          </ul>
+
+          <ul class="sub2">
+            <li><a href="#">모든 룩 보기</a></li>
+            <li><a href="#">가방</a></li>
+            <li><a href="#">슈즈</a></li>
+            <li><a href="#">레디 투 웨어</a></li>
+            <li><a href="#">액세서리</a></li>
+          </ul>
+
+          <ul class="sub3">
+            <li><a href="#">모든 룩 보기</a></li>
+            <li><a href="#">MIU WANDER</a></li>
+            <li><a href="#">MATELASSE</a></li>
+            <li><a href="#">버킷백</a></li>
+            <li><a href="#">숄더백</a></li>
+            <li><a href="#">토트백</a></li>
+            <li><a href="#">탑 핸들</a></li>
+            <li><a href="#">호보백</a></li>
+            <li><a href="#">미니백</a></li>
+            <li><a href="#">클러치</a></li>
+          </ul>
+        </div>
+
+        <div id="pcnavbox">
+          <ul>
+            <li><a href="#"><img src="miumiuicon/botmenu_bag.png" alt="bag"></a></li>
+            <li><a href="#"><img src="miumiuicon/botmenu_wish.png" alt="wish"></a></li>
+            <li><a href="#"><img src="miumiuicon/botmenu_addr.png" alt="add"></a></li>
+            <li><a href="#"><img src="miumiuicon/botmenu_call.png" alt="call"></a></li>
+            <li><a href="#"><img src="miumiuicon/botmenu_login.png" alt="login"></a></li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuicon/botmenu_check.png" alt="login">Korea,Republic Of/Korean</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- pc header 끝 -->
+
+
+  </header>
+
+
+
+  <!--메뉴 -->
+  <div class="menu">
+
+    <div class="close">
+      <a href="#"><img src="miumiuicon/x_bk.png" alt="xbk"></a>
+    </div>
+
+    <div class="menulogo">
+      <a href="main.html"><img src="miumiuicon/logo_bk.png" alt="bl"></a>
+    </div>
+
+    <!-- Search model -->
+    <div class="menusearch-model">
+      <form class="menusearch-moderl-form">
+        <input type="text" id="menusearch-input" placeholder="Search here.....">
+      </form>
+    </div>
+
+
+    <div class="menubox1">
+
+      <ul class="topmenu">
+        <li class="accordion-toggle">
+          <a href="#">컬렉션</a>
+        </li>
+        <div class="collectbox">
+          <ul class="accordion-content">
+            <a href="#"><img src="miumiuicon/x_bk.png" alt="x"></a>
+            <li><a href="#">하이라이트</a></li>
+            <li><a href="#">가방</a></li>
+            <li><a href="#">슈즈</a></li>
+            <li><a href="#">레디 투 웨어</a></li>
+            <li><a href="#">지갑 및 소형 가죽 제품</a></li>
+            <li><a href="#">액세서리</a></li>
+            <li><a href="#">쥬얼리</a></li>
+            <li><a href="#">향수</a></li>
+          </ul>
+        </div>
+
+
+        <li class="accordion-toggle1">
+          <a href="#">신상품</a>
+        </li>
+        <div class="newbox">
+          <ul class="accordion-content">
+            <a href="#"><img src="miumiuicon/x_bk.png" alt="x"></a>
+            <li><a href="#">모든 룩 보기</a></li>
+            <li><a href="#">가방</a></li>
+            <li><a href="#">슈즈</a></li>
+            <li><a href="#">레디 투 웨어</a></li>
+            <li><a href="#">액세서리</a></li>
+          </ul>
+        </div>
+
+
+
+        <li class="accordion-toggle2">
+          <a href="#">가방</a>
+        </li>
+        <div class="bagbox">
+          <ul class=" accordion-content">
+            <a href="#"><img src="miumiuicon/x_bk.png" alt="x"></a>
+            <li><a href="#">모든 룩 보기</a></li>
+            <li><a href="#">MIU WANDER</a></li>
+            <li><a href="#">MATELASSE</a></li>
+            <li><a href="#">버킷백</a></li>
+            <li><a href="#">숄더백</a></li>
+            <li><a href="#">토트백</a></li>
+            <li><a href="#">탑 핸들</a></li>
+            <li><a href="#">호보백</a></li>
+            <li><a href="#">미니백</a></li>
+            <li><a href="#">클러치</a></li>
+          </ul>
+        </div>
+
+        <li class="accordion-toggle3">
+          <a href="#">MIU WANDER</a>
+        </li>
+
+        <li class="accordion-toggle4">
+          <a href="#">MIU MIU CLUB</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="menubox2">
+      <ul class="botmenu">
+        <li><a href="#"><img src="miumiuicon/botmenu_bag.png" alt="bag">쇼핑백</a></li>
+        <li><a href="#"><img src="miumiuicon/botmenu_wish.png" alt="wish">위시리스트</a></li>
+        <li><a href="#"><img src="miumiuicon/botmenu_addr.png" alt="add">매장찾기</a></li>
+        <li><a href="#"><img src="miumiuicon/botmenu_call.png" alt="call">문의하기</a></li>
+        <li><a href="#"><img src="miumiuicon/botmenu_login.png" alt="login">로그인</a></li>
+        <li><a href="#"><img src="miumiuicon/botmenu_check.png" alt="login">Korea,Republic Of/Korean</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <section>
+    <!-- 서브메인 -->
+    <div class="submain">
+      <img src="miumiuimg/letesubmain.png" alt="submain">
+      <div data-aos="fade-right" class="h23">
+        <h2>Miu Miu L'été</h2>
+        <p>
+          미우미우 레떼 컬렉션에서는 아우터로 착용하는<br>언더웨어의 매력, 남성 테일러링의 정교함, 스포츠웨어의 <br>편안함에서 영감을 받아 가장 순수한 본질을 드러낸<Br>현대적인 룩을 선보입니다.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="app">
+      <div class="app1"><a href="#">필터</a></div>
+      <div class="app2">
+        <select>
+          <option selected>정렬기준</option>
+          <option>제안</option>
+          <option>내림차순 가격</option>
+          <option>오름차순 가격</option>
+        </select>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- mobile subbox -->
+    <div class="subbox">
+
+
+      <div class="gridbox1">
+        <ul>
+          <li>
+            <a href="lete_sub.html"><img src="miumiuimg/subbox1.png" alt="subbox1"></a>
+            <p>자수 로고 장식 코튼 티셔츠</p>
+            <p>￦960,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox2.png" alt="subbox2"></a>
+            <p>미우미우 런웨이 선글라스</p>
+            <p>￦670,000</p>
+          </li>
+        </ul>
+
+
+        <div class="submain1">
+          <img src="miumiuimg/letesub1.png" alt="lete1">
+        </div>
+
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox3.png" alt="subbox3"></a>
+            <p>싱글 브레스티드 바타비아 재킷</p>
+            <p>￦5,650,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox4.png" alt="subbox4"></a>
+            <p>플리츠 바타비아 미니스커트</p>
+            <p>￦2,450,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox5.png" alt="subbox5"></a>
+            <p>플리츠 바타비아 스커트</p>
+            <p>￦2,950,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox6.png" alt="subbox6"></a>
+            <p>스트레치 나파 가죽 오픈토 부츠</p>
+            <p>￦2,650,000</p>
+          </li>
+        </ul>
+        <ul>
+      </div>
+
+      <div class="gridbox2">
+
+        <div class="submain2">
+          <img src="miumiuimg/letesub2.png" alt="lete2">
+        </div>
+
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox7.png" alt="subbox7"></a>
+            <p>마테라쎄 나파 가죽 탑 핸들 백</p>
+            <p>￦3,900,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox8.png" alt="subbox8"></a>
+            <p>위커 헤드밴드</p>
+            <p>￦680,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox9.png" alt="subbox9"></a>
+            <p>스트레치 나파 가죽 오픈토 부츠</p>
+            <p>￦2,650,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox10.png" alt="subbox10"></a>
+            <p>포플린 브라</p>
+            <p>￦920,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox11.png" alt="subbox11"></a>
+            <p>플렉시글라스 헤드밴드</p>
+            <p>￦680,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox12.png" alt="subbox12"></a>
+            <p>크로셰 호보백</p>
+            <p>￦2,850,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox13.png" alt="subbox13"></a>
+            <p>플렉시글라스 헤드밴드</p>
+            <p>￦680,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/subbox14.png" alt="subbox14"></a>
+            <p>플렉시글라스와 메탈 헤어 클립</p>
+            <p>￦810,000</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- tablet  -->
+    <div class="tabletborder">
+
+      <div class="t_h3">
+        <a href="#">
+          <h3>Miu Miu L'été</h3>
+        </a>
+      </div>
+
+      <div class="t_app">
+        <div class="t_app1"><a href="#">필터</a></div>
+        <div class="t_app2">
+          <select>
+            <option selected>정렬기준</option>
+            <option>제안</option>
+            <option>내림차순 가격</option>
+            <option>오름차순 가격</option>
+          </select>
+        </div>
+      </div>
+  
+
+      <div class="subbox_t">
+        <ul>
+          <li>
+            <a href="lete.html"><img src="miumiuimg/letetablet/tabletletesubmain.png" alt="0">
+              <h3>Miu Miu L'été</h3>
+              <p>미우미우 레떼 컬렉션에서는<br>아우터로 착용하는 언더웨어의<br> 매력, 남성 테일러링의 정교함,<br> 스포츠웨어의 편안함에서 영감을<br> 받아 가장 순수한 본질을 드러낸
+                <br>현대적인 룩을 선보입니다.</p>
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="lete_sub.html"><img src="miumiuimg/letetablet/tabletsub1.png" alt="1"></a>
+            <p>자수 로고 장식 코튼 티셔츠</p>
+            <p>￦960,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub2.png" alt="2"></a>
+            <p>미우미우 런웨이 선글라스</p>
+            <p>￦670,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub3.png" alt="3"></a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub4.png" alt="4"></a>
+            <p>싱글 브레스티드 바타비아 재킷</p>
+            <p>￦5,650,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub5.png" alt="5"></a>
+            <p>플리츠 바타비아 미니스커트</p>
+            <p>￦2,450,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub6.png" alt="6"></a>
+            <p>플리츠 바타비아 스커트</p>
+            <p>￦2,950,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub7.png" alt="7"></a>
+            <p>스트레치 나파 가죽 오픈토 부츠</p>
+            <p>￦2,650,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub8.png" alt="8"></a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub9.png" alt="9"></a>
+            <p>마테라쎄 나파 가죽 탑 핸들 백</p>
+            <p>￦3,900,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub10.png" alt="10"></a>
+            <p>위커 헤드밴드</p>
+            <p>￦680,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub11.png" alt="11"></a>
+            <p>스트레치 나파 가죽 오픈토 부츠</p>
+            <p>￦2,650,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub12.png" alt="12"></a>
+            <p>포플린 브라</p>
+            <p>￦920,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub13.png" alt="13"></a>
+            <p>플렉시글라스 헤드밴드</p>
+            <p>￦680,000</p>
+
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub14.png" alt="14"></a>
+            <p>플렉시글라스 헤드밴드</p>
+            <p>￦680,000</p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"><img src="miumiuimg/letetablet/tabletsub15.png" alt="15"></a>
+            <p>플렉시글라스와 메탈 헤어 클립</p>
+            <p>￦810,000</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+    <!-- pc border-->
+    <div class="pcborder">
+
+      <div class="p_h3">
+        <a href="#">
+          <h3>Miu Miu L'été</h3>
+        </a>
+      </div>
+
+
+      <div class="p_app">
+        <div class="p_app1"><a href="#">필터</a></div>
+        <div class="p_app2">
+          <select>
+            <option selected>정렬기준</option>
+            <option>제안</option>
+            <option>내림차순 가격</option>
+            <option>오름차순 가격</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="subbox_p">
+
+
+        <div class="p_letebox">
+          <ul>
+            <img src="miumiuimg/letepc/letemain.png" alt="0">
+          </ul>
+          <ul data-aos="fade-left">
+            <h3>Miu Miu L'été</h3>
+            <p>미우미우 레떼 컬렉션에서는 아우터로 착용하는 언더웨어의
+              매력, 남성 테일러링의 정교함,<br> 스포츠웨어의 편안함에서 영감을
+              받아 가장 순수한 본질을 드러낸
+              현대적인 룩을 선보입니다.</p>
+          </ul>
+        </div>
+
+        <div class="p_gridbox">
+          <ul>
+            <li>
+              <a href="lete_sub.html"><img src="miumiuimg/letepc/letepc1.png" alt="1"></a>
+              <h4>싱글 브레스티드 바타비아 재킷</h4>
+              <p>₩ 5,650,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc2.png" alt="2"></a>
+              <h4>플리츠 바타비아 미니스커트</h4>
+              <p>₩ 2,450,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc3.png" alt="3"></a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc4.png" alt="4"></a>
+              <h4>플리츠 바타비아 스커트</h4>
+              <p>₩ 2,950,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc5.png" alt="5"></a>
+              <h4>스트레치 나파 가죽 오픈토 부츠</h4>
+              <p>￦2,650,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc6.png" alt="6"></a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc7.png" alt="7"></a>
+              <h4>마테라쎄 나파 가죽 탑 핸들 백</h4>
+              <p> ₩ 3,900,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc8.png" alt="8"></a>
+              <h4>미우미우 런웨이 선글라스</h4>
+              <p> ₩ 670,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc9.png" alt="9"></a>
+              <h4>위커 헤드밴드</h4>
+              <p>₩ 680,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc10.png" alt="10"></a>
+              <h4>크로셰 호보백</h4>
+              <p>₩ 2,850,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc11.png" alt="11"></a>
+              <h4>치노 블루종 재킷</h4>
+              <p>₩ 4,100,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc12.png" alt="12"></a>
+              <h4>치노 쇼츠</h4>
+              <p>₩ 1,600,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc13.png" alt="13"></a>
+              <h4>크로셰 탑 핸들 백</h4>
+              <p> ₩ 3,050,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc14.png" alt="14"></a>
+              <h4>플렉시글라스와 메탈 헤어 클립</h4>
+              <p>￦810,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc15.png" alt="15"></a>
+              <h4>파나마 코튼 블루종 재킷</h4>
+              <p>₩ 3,850,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc16.png" alt="16"></a>
+              <h4>파나마 코튼 미니스커트</h4>
+              <p>₩ 2,000,000</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#"><img src="miumiuimg/letepc/letepc17.png" alt="17"></a>
+              <h4>로고 장식 크레이프 드 신 미니스커트</h4>
+              <p>₩ 2,100,000</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <!-- footer -->
+  <footer>
+    <!-- footertop -->
+    <div class="footertop">
+
+      <ul data-aos="fade-up" class="footerlist">
+        <li id="nav1" class="accordion-toggle1-1">
+          <a class="footer-link" href="#">
+            <img src="miumiuicon/footertop_white.png" alt="ftb">회사소개</a>
+        </li>
+        <ul class="footerlist accordion-content">
+          <li><a href="#">매장찾기</a></li>
+          <li><a href="#">프라다 그룹</a></li>
+          <li><a href="#">사회적 책임</a></li>
+          <li><a href="#">Fondazione Prada</a></li>
+          <li><a href="#">채용정보</a></li>
+        </ul>
+
+        <li id="nav2" class="accordion-toggle1-2">
+          <a class="footer-link" href="#">
+            <img src="miumiuicon/footertop_white.png" alt="ftb">클라이언트 서비스</a>
+        </li>
+        <ul class="footerlist accordion-content">
+          <li><a href="#">미우미우 서비스</a></li>
+          <li><a href="#">문의하기</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">반품</a></li>
+          <li><a href="#">주문추적</a></li>
+        </ul>
+
+
+        <li id="nav3" class="accordion-toggle1-3">
+          <a class="footer-link" href="#">
+            <img src="miumiuicon/footertop_white.png" alt="ftb">법적 고지 및 이용약관</a>
+        </li>
+        <ul class="footerlist accordion-content">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보 처리방침</a></li>
+          <li><a href="#">쿠키 정책</a></li>
+          <li><a href="#">판매 약관</a></li>
+          <li><a href="#">사이트맵</a></li>
+        </ul>
+
+        <li id="nav4" class="accordion-toggle1-4">
+          <a class="footer-link" href="#">
+            <img src="miumiuicon/footertop_white.png" alt="ftb">카테고리</a>
+        </li>
+        <ul class="footerlist accordion-content">
+          <li><a href="#">가방</a></li>
+          <li><a href="#">액세서리</a></li>
+          <li><a href="#">레디 투 웨어</a></li>
+          <li><a href="#">슈즈</a></li>
+          <li><a href="#">아이웨어</a></li>
+        </ul>
+      </ul>
+    </div>
+
+    <!-- pc footertop -->
+    <div class="pcfootertop">
+      <ul data-aos="fade-left" data-aos-delay="100">
+        <li><a href="#">
+            <h4>회사소개</h4>
+          </a> </li>
+        <li><a href="#">매장찾기</a></li>
+        <li><a href="#">프라다 그룹</a></li>
+        <li><a href="#">사회적 책임</a></li>
+        <li><a href="#">Fondazione Prada</a></li>
+        <li><a href="#">채용정보</a></li>
+      </ul>
+
+      <ul data-aos="fade-left" data-aos-delay="200">
+        <li><a href="#">
+            <h4>클라이언트 서비스</h4>
+          </a> </li>
+        <li><a href="#">미우미우 서비스</a></li>
+        <li><a href="#">문의하기</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">반품</a></li>
+        <li><a href="#">주문추적</a></li>
+      </ul>
+
+      <ul data-aos="fade-left" data-aos-delay="300">
+        <li><a href="#">
+            <h4>법적 고지 및 이용약관</h4>
+          </a> </li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보 처리방침</a></li>
+        <li><a href="#">쿠키 정책</a></li>
+        <li><a href="#">판매 약관</a></li>
+        <li><a href="#">사이트맵</a></li>
+      </ul>
+
+      <ul data-aos="fade-left" data-aos-delay="400">
+        <li><a href="#">
+            <h4>카테고리</h4>
+          </a> </li>
+        <li><a href="#">가방</a></li>
+        <li><a href="#">액세서리</a></li>
+        <li><a href="#">레디 투 웨어</a></li>
+        <li><a href="#">슈즈</a></li>
+        <li><a href="#">아이웨어</a></li>
+      </ul>
+    </div>
+
+
+
+
+    <!-- footerbottom -->
+    <div class="footerbottom">
+
+      <div data-aos="fade-up" class="frb_icon">
+        <a href="https://www.facebook.com/MiuMiu"><img src="miumiuicon/facebook.png" alt="face"></a>
+        <a href="https://www.instagram.com/miumiu/"><img src="miumiuicon/instagram.png" alt="inst"></a>
+        <a href="https://twitter.com/miumiuofficial"><img src="miumiuicon/twitter.png" alt="twit"></a>
+        <a href="https://www.youtube.com/user/miumiu"><img src="miumiuicon/youtube.png" alt="yout"></a>
+      </div>
+
+      <h2 data-aos="zoom-in"><img src="miumiuicon/footerlogo.png" alt="ftlogo"></h2>
+
+
+      <div class="footerspan">
+        <address>서울시 강남구 압구정로 439 06010.</address><br>
+        <p class="company1">프라다 코리아 (유).의 모든 컨텐츠는 저작권의 보호를 받고 있습니다.</p>
+        <p class="company2">Copyright MIUMIU all rights Reserved.</p>
+      </div>
+
+      <div class="footerlast"></div>
+      <p>© PRADA 2005 - 2023 | VAT n. 213-86-18599</p>
+    </div>
+
+    <div id="contactbtn">
+      <a href="#"><img src="miumiuicon/contact_white.png" alt="ctbtn"></a>
+    </div>
+
+    <!-- 문의하기 창 -->
+    <div class="contactbox">
+
+      <div class="ct_header">
+        <img src="miumiuicon/contact_header.png" alt="ch">
+        <p>채팅 상담</p>
+        <a class="x_btn" href="#"><img src="miumiuicon/x_wh.png" alt="x"></a>
+      </div>
+
+      <div class="ct_section">
+        <p>채팅 서비스를 이용하면 고객 요청에 대응하고 요청한 서비스를 제공하기 위해
+          프라다에서 고객이 제공하는 모든 개인 정보를 사용함을 확인합니다. 더 자세한 정보는
+          개인정보 처리방침을 참조해 주세요.
+        </p>
+
+        <div class="bk_box">
+          <p>안녕하세요, <br>
+            미우미우입니다. 무엇을 <br>도와드릴까요?</p>
+          <span>16:35</span>
+        </div>
+      </div>
+
+      <div class="ct_footer">
+        <form class="smallbox">
+          <input type="text" id="search-input" placeholder="메시지 입력 시작">
+        </form>
+        <a href="#"><img src="miumiuicon/contact_submit.png" alt="cs"></a>
+      </div>
+
+    </div>
+</body>
+
+</html>

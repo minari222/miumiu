@@ -1,0 +1,1733 @@
+@charset "utf-8";
+
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+/*display:none */
+header .tablettop {
+  display: none;
+}
+
+header .pctop {
+  display: none;
+}
+
+.subbox_t {
+  display: none;
+}
+
+.tabletborder {
+  display: none;
+}
+
+.pcborder {
+  display: none;
+}
+
+.pcfootertop {
+  display: none;
+}
+
+.pcheader_hea1 {
+  display: none;
+}
+
+.pcmenu {
+  display: none;
+}
+
+header .top {
+  width: 100%;
+  height: 130px;
+  position: fixed;
+  z-index: 999;
+}
+
+
+header .top .toplogo {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+header .top .topbag {
+  position: absolute;
+  top: 20px;
+  right: 80px;
+}
+
+/* login */
+.login-model {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: 99999;
+}
+
+.login-model h2 {
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 20px;
+}
+
+.login-model p {
+  text-align: left;
+  text-align: center;
+}
+
+.login-moderl-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.login-close-switch {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  font-size: 21px;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.login-input {
+  display: block;
+  width: 100%;
+  margin: 1rem auto;
+  height: 80px;
+  padding: 6px 12px;
+  appearance: none;
+  font-size: 14px;
+  color: #000;
+  border: 1px solid #000;
+  border-color: transparent transparent #000 transparent;
+}
+
+.login-input:focus {
+  outline: none;
+  color: #000;
+}
+
+.pwcheck {
+  margin-left: 50px;
+}
+
+.mysave {
+  position: absolute;
+  right: 50px;
+  top: 390px;
+}
+
+.mysave input {
+  margin-right: 10px;
+  width: 17px;
+  height: 17px;
+}
+
+.login-model .form_group1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.login-model .form_group1 .btn {
+  width: 300px;
+  height: 35px;
+  background: none;
+  border: 1px solid #000;
+}
+
+.login-model .form_group2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.login-model .form_group2 .btn_b {
+  width: 300px;
+  height: 35px;
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+/* join */
+.join-model {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: 99999;
+}
+
+.join-model h2 {
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 20px;
+}
+
+.join-model span {
+  font-size: 12px;
+}
+
+.join-moderl-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.join-close-switch {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  font-size: 21px;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.join-input {
+  display: block;
+  width: 100%;
+  margin: 1rem auto;
+  height: 80px;
+  padding: 6px 12px;
+  appearance: none;
+  font-size: 14px;
+  color: #000;
+  border: 1px solid #000;
+  border-color: transparent transparent #000 transparent;
+}
+
+.join-input:focus {
+  outline: none;
+  color: #000;
+}
+
+.ok {
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+
+.ok input {
+  margin-right: 10px;
+  width: 17px;
+  height: 17px;
+}
+
+.join-model .form_group3 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.join-model .form_group3 .btn_j {
+  width: 300px;
+  height: 35px;
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+header .top .topsearch {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.search-model {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: 99999;
+}
+
+.search-moderl-form {
+  padding: 0 15px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-left: -250px;
+}
+
+.search-moderl-form input {
+  width: 500px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid #333;
+  background: none;
+  color: #999;
+  outline: none;
+}
+
+.search-close-switch {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  font-size: 21px;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* 메뉴 */
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  line-height: 45px;
+  padding: 0px 15px 0px 15px;
+  color: #fff;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: normal;
+  cursor: pointer;
+  outline: none;
+  z-index: 1000;
+}
+
+.menu {
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  overflow: auto;
+  background: #fff;
+}
+
+.menu .close {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
+
+.menu .menulogo {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+.menu .menusearch-model {
+  width: 100%;
+  margin-top: 300px;
+}
+
+.menu .menusearch-moderl-form {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  padding-top: 80px;
+}
+
+.menu .menusearch-moderl-form input {
+  width: 400px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #333;
+  background: none;
+  color: #999;
+  outline: none;
+}
+
+
+
+
+/* 메뉴박스 */
+
+.menu .menubox1 {
+  width: 100%;
+  position: relative;
+}
+
+.menu .menubox1>ul {
+  position: absolute;
+  left: 10%;
+}
+
+.menu .menubox1>ul>li {
+  padding-bottom: 30px;
+}
+
+.menu .menubox1>ul>li>a {
+  color: #000;
+  font-size: 20px;
+}
+
+
+
+
+/* 공통된 box */
+.accordion-content {
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.accordion-content li {
+  margin-bottom: 30px;
+}
+
+.accordion-content li a {
+  color: #000;
+}
+
+.accordion-content img {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+
+
+/* 컬렉션 박스 */
+.collectbox {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  top: -100%;
+  left: 0;
+  overflow: auto;
+}
+
+/* 신상품 박스 */
+.newbox {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  top: -100%;
+  left: 0;
+  overflow: auto;
+}
+
+/* 가방 박스 */
+.bagbox {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  top: -100%;
+  left: 0;
+  overflow: auto;
+}
+
+
+
+/* 하단메뉴 */
+.menu .menubox2 {
+  width: 100%;
+}
+
+.menu .menubox2 ul {
+  position: absolute;
+  left: 50px;
+  bottom: 90px;
+}
+
+.menu .menubox2 ul img {
+  margin-right: 10px;
+}
+
+.menu .menubox2 ul li {
+  padding-bottom: 15px;
+}
+
+.menu .menubox2 ul li a {
+  color: #000;
+  font-size: 15px;
+}
+
+.menu .menubox2 ul li:last-child {
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+/* 메뉴 끝 */
+
+
+
+
+
+/* main */
+
+.submain {
+  width: 100%;
+  position: relative;
+}
+
+.submain img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+
+.submain .h23 {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.submain h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.submain h3 {
+  font-size: 13px;
+}
+
+
+.app {
+  border: 1px solid #000;
+  border-bottom: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.app .app1 a {
+  color: #000;
+  font-size: 12px;
+}
+
+.app .app2 select {
+  outline: none;
+  border: none;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+
+
+
+/* grid */
+.subbox {
+  padding-bottom: 100px;
+  width: 100%;
+  border: 1px solid #000;
+  border-bottom: none;
+}
+
+.subbox li {
+  width: 100%;
+}
+
+.subbox img {
+  width: 100%;
+  height: 290px;
+}
+
+.borderbox1 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 10px;
+}
+
+.borderbox1 p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+
+/* 버튼 */
+.more_btn {
+  padding-bottom: 100px;
+  padding-top: 50px;
+  display: block;
+}
+
+.more_btn button {
+  text-align: center;
+  margin: 0 auto;
+  width: 150px;
+  background: #fff;
+  color: #000;
+  font-family: "Open Sans";
+  cursor: pointer;
+  padding: 10px 0;
+  display: block;
+  border: 1px solid #000;
+}
+
+
+
+
+/* footer top */
+.footertop {
+  margin-bottom: 150px;
+}
+
+.footertop .footerlist li img {
+  margin-right: 10px;
+}
+
+.footertop .accordion-toggle {
+  font-size: 16px;
+  padding: 20px;
+  border-top: 1px solid #000;
+}
+
+.footertop ul {
+  border-bottom: 1px solid #000;
+}
+
+.footertop .accordion-toggle a {
+  color: #000;
+  margin: 20px;
+}
+
+.footertop .accordion-content {
+  display: none;
+}
+
+.footertop .footerlist ul li {
+  margin: 30px;
+  margin-left: 70px;
+}
+
+.footertop .footerlist ul li a {
+  color: #000;
+}
+
+
+/* footerbottom */
+
+.footerbottom {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+}
+
+.footerbottom h2 img {
+  width: 100%;
+}
+
+.footerbottom .frb_icon img {
+  padding-right: 3%;
+  margin: 30px auto;
+  max-width: 80px;
+}
+
+.footerbottom .footerspan {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.footerbottom .footerlast {
+  border: 1px solid #000;
+  margin-top: 50px;
+  width: 100%;
+}
+
+#contactbtn {
+  position: fixed;
+  bottom: 150px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#contactbtn img {
+  width: 60px;
+  height: 60px;
+}
+
+/* 문의창 */
+.contactbox {
+  display: none;
+  position: fixed;
+  width: 55%;
+  height: 40%;
+  right: 10px;
+  bottom: 10px;
+  background: #fff;
+}
+
+.contactbox .ct_header {
+  background: #000;
+  width: 100%;
+  height: 50px;
+}
+
+.contactbox .ct_header>img {
+  margin-left: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.contactbox .ct_header p {
+  color: #fff;
+  position: absolute;
+  left: 50px;
+  top: 15px;
+}
+
+.contactbox .ct_header .x_btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.contactbox .ct_section {
+  position: relative;
+}
+
+.contactbox .ct_section p {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.contactbox .ct_section .bk_box {
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  background: #000;
+  position: absolute;
+  top: 150px;
+  left: 10px;
+}
+
+.contactbox .ct_section .bk_box p {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.contactbox .ct_section .bk_box span {
+  color: #444343;
+  position: absolute;
+  top: 85px;
+  font-size: 12px;
+  left: 10px;
+}
+
+
+.contactbox .ct_footer {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0 0 4px #ccc;
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.contactbox .ct_footer .smallbox input {
+  width: 80%;
+  height: 30px;
+  background: #e9e9e9;
+  box-shadow: 0 0 4px #ccc;
+  border-radius: 20px;
+  bottom: 0;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
+  border: none;
+}
+
+.contactbox .ct_footer .smallbox input:focus {
+  outline: none;
+}
+
+.contactbox .ct_footer a {
+  position: absolute;
+  right: 8px;
+  bottom: 20px;
+}
+
+
+
+
+
+/* tablet */
+@media screen and (min-width:640px) {
+  .top {
+    display: none;
+  }
+
+  header .tablettop {
+    top: 0;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 999;
+    display: block;
+    background: #fff;
+  }
+
+  header .tablettop .t_hamburger {
+    background: none;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    line-height: 45px;
+    padding: 0px 15px 0px 15px;
+    color: #000;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: normal;
+    cursor: pointer;
+    outline: none;
+    z-index: 1000;
+  }
+
+  header .tablettop .t_toplogo {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  header .tablettop .t_topbag {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+  }
+
+  header .tablettop .t_topsearch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  header .tablettop .search-model {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 99999;
+  }
+
+  header .tablettop .search-moderl-form {
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -250px;
+  }
+
+  header .tablettop .search-moderl-form input {
+    width: 500px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    color: #999;
+    outline: none;
+  }
+
+  header .tablettop .search-close-switch {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-size: 21px;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+  }
+
+  .app {
+    display: none;
+  }
+
+  .tabletborder {
+    display: block;
+    border: 1px solid #000;
+    border-bottom: none;
+    margin-top: 100px;
+  }
+
+  .t_h3 {
+    background: #000;
+    width: 100px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .t_h3 a {
+    color: #fff;
+  }
+
+  .t_p {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    padding: 20px;
+  }
+
+  .t_p a {
+    color: #000;
+    margin-bottom: 10px;
+  }
+
+  .t_app {
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .t_app .t_app1 a {
+    color: #000;
+    font-size: 12px;
+  }
+
+  .t_app .t_app2 select {
+    outline: none;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .submain {
+    display: none;
+  }
+
+  .app {
+    display: none;
+  }
+
+  .subbox {
+    display: none;
+  }
+
+  .tabletborder {
+    display: block;
+  }
+
+  .subbox_t {
+    display: grid;
+    width: 100%;
+    padding-bottom: 100px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+
+  .subbox_t img {
+    width: 100%;
+    height: 260px;
+  }
+
+  .subbox_t p {
+    font-size: 13px;
+  }
+
+  .subbox_t ul:first-child {
+
+    position: relative;
+  }
+
+  .subbox_t ul:first-child a {
+    text-align: center;
+  }
+
+  .subbox_t ul:first-child a p {
+    position: absolute;
+    color: #fff;
+    top: 70px;
+    padding: 10px;
+    font-size: 13px;
+    z-index: 9;
+  }
+
+  .subbox_t ul:first-child a h3 {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .subbox_t p {
+    text-align: center;
+    margin: 10px;
+  }
+
+  #contactbtn {
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 99;
+  }
+
+  #contactbtn img {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* 문의창 */
+  .contactbox {
+    width: 45%;
+  }
+}
+
+
+/* pc */
+@media screen and (min-width:801px) {
+  .pcheader_hea1 {
+    display: block;
+  }
+
+  .pctop {
+    display: block;
+  }
+
+  header .tablettop {
+    display: none;
+  }
+
+  header .tablettop {
+    display: none;
+  }
+
+
+/* pc header,menu */
+.pcmenu {
+  display: block;
+  width: 100%;
+  height: 700px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 8;
+}
+
+  #pcmainmenu {
+    position: relative;
+    width: 100%;
+    height: 52px;
+    top: 70px;
+    margin: 0 auto;
+    margin-left: 500px;
+  }
+
+  #pcmainmenu li {
+    float: left;
+    width: 200px;
+  }
+
+  #pcmainmenu li a {
+    display: block;
+    line-height: 52px;
+    color: #000;
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+  }
+
+  #pcmainmenu li a::after {
+    content: "";
+    height: 3px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 100%;
+    transition: all 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+
+  #pcmainmenu li a:hover::after {
+    left: 0;
+    right: 0;
+  }
+
+
+  /* 메뉴창박스 */
+
+  #pcsubmenu {
+    position: relative;
+    width: 100%;
+    height: 52px;
+    top: 70px;
+    margin: 0 auto;
+    padding-left: 500px;
+  }
+
+  #pcsubmenu li {
+    width: 200px;
+  }
+
+  #pcsubmenu li a {
+    display: block;
+    line-height: 52px;
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #pcsubmenubox {
+    display: flex;
+  }
+
+  #pcsubmenubox ul {
+    margin-top: 30px;
+  }
+
+  #pcsubmenubox ul li a:hover {
+    color: lightgray;
+  }
+
+  #pcnavbox {
+    position: relative;
+    top: -30px;
+  }
+
+  #pcnavbox ul:first-child {
+    position: absolute;
+    left: -500px;
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+  }
+
+  #pcnavbox ul:last-child {
+    position: absolute;
+    right: 20px;
+    width: 20%;
+  }
+
+    /* login */
+  .login-model {
+    display: none;
+  }
+
+  .pclogin-model {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    z-index: 9999 !important;
+  }
+
+  .pclogin-model .model1 {
+    width: 50%;
+  }
+
+  .pclogin-model .model1 h2 {
+    position: absolute;
+    left: 33%;
+    top: 10%;
+  }
+
+
+  .pclogin-model .model1 .pclogin-moderl-form:first-child {
+    position: absolute;
+    left: 25%;
+    top: 30%;
+  }
+
+
+  .pclogin-model .model1 .pclogin-moderl-form:nth-child(2) {
+    position: absolute;
+    left: 25%;
+    top: 45%;
+  }
+
+  .pclogin-model .model1 .pclogin-input {
+    display: block;
+    width: 400px;
+    margin: 1rem auto;
+    height: 50px;
+    padding: 6px 12px;
+    appearance: none;
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #000;
+    border-color: transparent transparent #000 transparent;
+  }
+
+  .pclogin-close-switch {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-size: 21px;
+    top: 35px;
+    right: 35px;
+    cursor: pointer;
+  }
+
+  .pclogin-model .model1 .pclogin-input:focus {
+    outline: none;
+    color: #000;
+  }
+
+  .pclogin-model .model1 .pcpwcheck {
+    position: absolute;
+    bottom: 150px;
+    left: 25%;
+    cursor: pointer;
+  }
+
+  .pclogin-model .model1 .pcmysave {
+    position: absolute;
+    left: 40%;
+    bottom: 150px;
+  }
+
+  .pclogin-model .model1 .mysave input {
+    margin-right: 10px;
+    width: 17px;
+    height: 17px;
+  }
+
+  .pclogin-model .model1 .pcform_group1 {
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+  }
+
+  .pclogin-model .model1 .pcform_group1 .btn {
+    width: 400px;
+    height: 35px;
+    background: none;
+    border: 1px solid #000;
+  }
+
+  .pclogin-model .model2 {
+    width: 50%;
+  }
+
+  .pclogin-model .model2 h2 {
+    position: absolute;
+    right: 32%;
+    top: 10%;
+  }
+
+  .pclogin-model .model2 p {
+    position: absolute;
+    right: 27%;
+    top: 32%;
+  }
+
+  .pclogin-model .model2 .pcform_group2 {
+    position: absolute;
+    right: 24%;
+    bottom: 50px;
+  }
+
+  .pclogin-model .model2 .pcform_group2 .pcbtn_b {
+    background: #000;
+    width: 400px;
+    height: 35px;
+    color: #fff;
+    border: 1px solid #000;
+  }
+
+  /* join */
+  .join-model {
+    display: none;
+  }
+
+  .pcjoin-model {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    z-index: 999999 !important;
+  }
+
+  .pcjoin-model h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .pcjoin-close-switch {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-size: 21px;
+    top: 35px;
+    right: 35px;
+    cursor: pointer;
+  }
+
+  .pcjoin-model .model3 {
+    width: 50%;
+  }
+
+  .pcjoin-model .model3 .pcjoin-moderl-form:first-child {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+  }
+
+  .pcjoin-model .model3 .pcjoin-moderl-form:nth-child(2) {
+    position: absolute;
+    left: 25%;
+    top: 45%;
+  }
+
+  .pcjoin-model .pcjoin-input {
+    display: block;
+    width: 400px;
+    margin: 1rem auto;
+    height: 50px;
+    padding: 6px 12px;
+    appearance: none;
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #000;
+    border-color: transparent transparent #000 transparent;
+  }
+
+  .pcjoin-model .model3 .pcok {
+    position: absolute;
+    bottom: 150px;
+    left: 25%;
+  }
+
+  .pcjoin-model .pcjoin-input:focus {
+    outline: none;
+    color: #000;
+  }
+
+  .pcjoin-model .model4 {
+    width: 50%;
+  }
+
+
+  .pcjoin-model .model4 .pcjoin-moderl-form:first-child {
+    position: absolute;
+    right: 25%;
+    top: 25%;
+  }
+
+  .pcjoin-model .model4 .pcjoin-moderl-form:nth-child(2) {
+    position: absolute;
+    right: 25%;
+    top: 45%;
+  }
+
+  .pcjoin-model .model4 .pcok {
+    position: absolute;
+    bottom: 150px;
+    right: 29%;
+
+  }
+
+  .pcjoin-model .model4 .pcform_group4 .pcbtn_j {
+    background: #000;
+    width: 400px;
+    height: 35px;
+    color: #fff;
+  }
+
+  .pcjoin-model .pcform_group4 {
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+  }
+
+  .pcjoin-model .pcform_group4 {
+    text-align: center;
+    width: 50%;
+  }
+
+  .pcjoin-model .pcbtn_j {
+    width: 400px;
+    height: 38px;
+    background: #000;
+    color: #fff;
+  }
+
+
+
+  /* 검색창 */
+  .search-model {
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 999;
+  }
+
+  .search-moderl-form {
+    padding: 50px 15px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -250px;
+  }
+
+  .search-moderl-form input {
+    width: 500px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #333;
+    background: none;
+    color: #999;
+    outline: none;
+  }
+
+  .search-close-switch {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-size: 21px;
+    top: 35px;
+    right: 35px;
+    cursor: pointer;
+  }
+
+  /* 메뉴창박스 */
+
+  #pcsubmenu {
+    position: relative;
+    width: 100%;
+    height: 52px;
+    top: 70px;
+    margin: 0 auto;
+    padding-left: 500px;
+  }
+
+  #pcsubmenu li {
+    width: 200px;
+  }
+
+  #pcsubmenu li a {
+    display: block;
+    line-height: 52px;
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #pcsubmenubox {
+    display: flex;
+  }
+
+  #pcsubmenubox ul {
+    margin-top: 30px;
+  }
+
+  #pcsubmenubox ul li a:hover {
+    color: lightgray;
+  }
+
+  #pcnavbox {
+    position: relative;
+    top: -30px;
+  }
+
+  #pcnavbox ul:first-child {
+    position: absolute;
+    left: -500px;
+    display: flex;
+    justify-content: flex-start;
+    width: 20%;
+  }
+
+  #pcnavbox ul:last-child {
+    position: absolute;
+    right: 20px;
+    width: 20%;
+  }
+
+
+
+  /* pcheader */
+  .pcheader_hea1 {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    z-index: 9999;
+  }
+
+  .pcheader {
+    width: 100%;
+    height: 130px;
+    position: fixed;
+  }
+
+  .pcheader .pctoplogo {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+  }
+
+  .pcheader .pctoplogo img {
+    width: 300px;
+  }
+
+  .pcheader .pctopbag {
+    position: absolute;
+    top: 40px;
+    right: 100px;
+  }
+
+  .pcheader .pctopbag img {
+    width: 38px;
+  }
+
+  .pcheader .pctopsearch {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+
+  .pcheader .pctopsearch img {
+    width: 38px;
+  }
+
+
+  .tabletborder {
+    display: none;
+  }
+
+  .pcborder {
+    display: block;
+    border: 1px solid #000;
+    border-bottom: none;
+    margin-top: 200px;
+  }
+
+  .pcborder .p_h3 {
+    width: 140px;
+    height: 30px;
+    background: #000;
+    margin-left: 50px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .pcborder .p_h3 a {
+    color: #fff;
+  }
+
+  .p_p {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    padding: 20px;
+  }
+
+  .p_p a {
+    color: #000;
+    padding-top: 20px;
+  }
+
+  .p_app {
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .p_app .p_app1 a {
+    color: #000;
+    font-size: 14px;
+  }
+
+  .p_app .p_app2 select {
+    outline: none;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+  }
+
+
+
+  .subbox_p {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .subbox_p ul {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .subbox_p h5 {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+  }
+
+  .subbox_p p {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+  }
+
+  .subbox_p li {
+    width: 100%;
+  }
+
+
+  .p_collectbox {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .p_collectbox img {
+    width: 100%;
+  }
+
+  .p_collectbox ul {
+    margin-top: 50px;
+  }
+
+  .p_collectbox ul:nth-child(2) {
+    background: #F2F2F2;
+    width: 1400px;
+    height: 417px;
+    margin-right: -185px;
+  }
+
+  .p_collectbox ul:nth-child(2) h3 {
+    margin: 40px;
+    padding-top: 50px;
+  }
+
+  .p_collectbox ul:nth-child(2) p {
+    margin-left: -200px;
+    margin-bottom: 200px;
+    font-size: 20px;
+  }
+
+
+  /* pc grid */
+  .p_gridbox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .p_gridbox ul {
+    position: relative;
+  }
+
+  .p_gridbox ul:hover {
+    border: 1px solid #000;
+  }
+
+  .p_gridbox img {
+    /* width: 460px; */
+    width: 100%;
+    height: 530px;
+  }
+
+
+
+
+  /* footer */
+  .footertop {
+    display: none;
+  }
+
+  .pcfootertop {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 200px;
+  }
+
+  .pcfootertop ul {
+    width: 80%;
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .pcfootertop ul li {
+    margin: 30px;
+  }
+
+  .pcfootertop ul li h3 {
+    margin-bottom: 20px;
+  }
+
+  .pcfootertop ul li a {
+    color: #333;
+  }
+
+  .footerbottom h2 img {
+    width: 80%;
+  }
+
+
+  /* 문의창 */
+  .contactbox {
+    width: 20%;
+  }
+}

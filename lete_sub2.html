@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="css/lete_sub2.css">
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+  <script src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/late_sub2.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="top">
+
+      <!-- 햄버거 -->
+      <div class="topham">
+
+        <button class="hamburger">&#9776;</button>
+
+      </div>
+
+      <div class="toplogo">
+        <a href="main.html"><img src="miumiuicon/logo_bk.png" alt="w_l"></a>
+      </div>
+
+      <div class="topbag">
+        <a href="#"><img src="miumiuicon/bag_bk.png" alt="w_b"></a>
+      </div>
+      <!-- login -->
+      <div class="login-model">
+        <h2>로그인</h2>
+
+        <div class="login-close-switch">x</div>
+
+        <form>
+          <div class="login-moderl-form">
+            <input type="id" class="login-input" required placeholder="이메일 *">
+          </div>
+          <div class="login-moderl-form">
+            <input type="password" class="login-input" required required placeholder="비밀번호를 입력하세요 *">
+          </div>
+
+          <div class="pwcheck">비밀번호 찾기</div>
+          <div class="mysave"><input type="checkbox" value="개인회원" name="chk1">내 정보 저장</div>
+
+          <div class="form_group1"><button type="submit" class="btn">로그인</button></div>
+        </form>
+
+        <h2>계정 만들기</h2>
+        <p>좋아하는 상품을 위시 리스트에 추가하세요.<br><br>
+          빠른 결제를 위해 연락처 정보를 저장하세요.<br><br>
+          주문 상태를 확인하세요.</p>
+        <div class="form_group2"><button type="submit" class="btn_b">계정 만들기</button></div>
+      </div>
+
+      <!-- join -->
+      <div class="join-model">
+        <h2>회원가입</h2>
+
+        <div class="join-close-switch">x</div>
+
+        <form>
+          <!-- 이름 -->
+          <div class="join-moderl-form">
+            <input type="name" class="join-input" required placeholder="이름 *">
+          </div>
+          <!-- 이메일 -->
+          <div class="join-moderl-form">
+            <input type="email" class="join-input" required placeholder="이메일 *">
+          </div>
+          <!-- 비밀번호 -->
+          <div class="join-moderl-form">
+            <input type="password" class="join-input" required required placeholder="비밀번호 *">
+            <span>암호는 8~16자여야 합니다.</span>
+          </div>
+          <!-- 비밀번호 확인 -->
+          <div class="join-moderl-form">
+            <input type="password" class="join-input" required required placeholder="비밀번호 확인 *">
+          </div>
+          <!-- 동의란 -->
+          <div class="ok"><input type="checkbox" value="개인회원" name="chk1">조건 과 개인 정보 보호정책을 읽고 동의합니다.</div>
+          <div class="ok"><input type="checkbox" value="개인회원" name="chk1">상업적 커뮤니케이션 수신에 동의합니다.</div>
+        </form>
+        <div class="form_group3"><button type="submit" class="btn_j">계정 만들기</button></div>
+      </div>
+      <div class="topsearch">
+        <a href="#"><img src="miumiuicon/search_bk.png" alt="w_s"></a>
+      </div>
+
+
+      <!-- Search model -->
+      <div class="search-model">
+
+        <div class="search-close-switch">x</div>
+        <form class="search-moderl-form">
+          <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+      </div>
+    </div>
+
+
+    <!-- tablet top -->
+    <div class="tablettop">
+
+      <div class="t_topham">
+        <button class="t_hamburger">&#9776;</button>
+      </div>
+
+      <div class="t_toplogo">
+        <a href="main.html"><img src="miumiuicon/logo_bk.png" alt="w_l"></a>
+      </div>
+
+      <div class="t_topbag">
+        <a href="#"><img src="miumiuicon/bag_bk.png" alt="w_b"></a>
+      </div>
+      <!-- login -->
+      <div class="login-model">
+        <h2>로그인</h2>
+
+        <div class="login-close-switch">x</div>
+
+        <form>
+          <div class="login-moderl-form">
+            <input type="id" class="login-input" required placeholder="이메일 *">
+          </div>
+          <div class="login-moderl-form">
+            <input type="password" class="login-input" required required placeholder="비밀번호를 입력하세요 *">
+          </div>
+
+          <div class="pwcheck">비밀번호 찾기</div>
+          <div class="mysave"><input type="checkbox" value="개인회원" name="chk1">내 정보 저장</div>
+
+          <div class="form_group1"><button type="submit" class="btn">로그인</button></div>
+        </form>
+
+        <h2>계정 만들기</h2>
+        <p>좋아하는 상품을 위시 리스트에 추가하세요.<br><br>
+          빠른 결제를 위해 연락처 정보를 저장하세요.<br><br>
+          주문 상태를 확인하세요.</p>
+        <div class="form_group2"><button type="submit" class="btn_b">계정 만들기</button></div>
+      </div>
+
+      <!-- join -->
+      <div class="join-model">
+        <h2>회원가입</h2>
+
+        <div class="join-close-switch">x</div>
+
+        <form>
+          <!-- 이름 -->
+          <div class="join-moderl-form">
+            <input type="name" class="join-input" required placeholder="이름 *">
+          </div>
+          <!-- 이메일 -->
+          <div class="join-moderl-form">
+            <input type="email" class="join-input" required placeholder="이메일 *">
+          </div>
+          <!-- 비밀번호 -->
+          <div class="join-moderl-form">
+            <input type="password" class="join-input" required required placeholder="비밀번호 *">
+            <span>암호는 8~16자여야 합니다.</span>
+          </div>
+          <!-- 비밀번호 확인 -->
+          <div class="join-moderl-form">
+            <input type="password" class="join-input" required required placeholder="비밀번호 확인 *">
+          </div>
+          <!-- 동의란 -->
+          <div class="ok"><input type="checkbox" value="개인회원" name="chk1">조건 과 개인 정보 보호정책을 읽고 동의합니다.</div>
+          <div class="ok"><input type="checkbox" value="개인회원" name="chk1">상업적 커뮤니케이션 수신에 동의합니다.</div>
+        </form>
+        <div class="form_group3"><button type="submit" class="btn_j">계정 만들기</button></div>
+      </div>
+      <div class="t_topsearch">
+        <a href="#"><img src="miumiuicon/search_bk.png" alt="w_s"></a>
+      </div>
+
+      <div class="t_topsearch">
+        <a href="#"><img src="miumiuicon/search_bk.png" alt="w_s"></a>
+      </div>
+
+      <!-- Search model -->
+      <div class="search-model">
+        <div class="search-close-switch">x</div>
+        <form class="search-moderl-form">
+          <input type="text" id="search-input1" placeholder="Search here.....">
+        </form>
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+  <!--메뉴 -->
+  <div class="menu">
+
+    <div class="close">
+      <a href="#"><img src="miumiuicon/x_bk.png" alt="xbk"></a>
+    </div>
+
+    <div class="menulogo">
+      <a href="main.html"><img src="miumiuicon/logo_bk.png" alt="bl"></a>
+    </div>
+
+    <!-- Search model -->
+    <div class="menusearch-model">
+      <form class="menusearch-moderl-form">
+        <input type="text" id="menusearch-input" placeholder="Search here.....">
+      </form>
+    </div>
+
+
+    <div class="menubox1">
+      <ul class="topmenu">
+        <li><a href="#">컬렉션</a></li>
+        <li><a href="#">신상품</a></li>
+        <li><a href="#">가방</a></li>
+        <li><a href="#">MIU WANDER</a></li>
+        <li><a href="#">MIU MIU CLUB</a></li>
+      </ul>
+    </div>
+
+    <div class="menubox2">
+      <ul class="botmenu">
+        <li><a href="#"><img src="miumiuicon/botmenu_bag.png" alt="bag">쇼핑백</a></li>
+        <li><a href="#"><img src="miumiuicon/botmenu_wish.png" alt="wish">위시리스트</a></li>
+        <li><a href="#"><img src="miumiuicon/botmenu_addr.png" alt="add">매장찾기</a></li>
+        <li><a href="#"><img src="miumiuicon/botmenu_call.png" alt="call">문의하기</a></li>
+        <li><a href="#"><img src="miumiuicon/botmenu_login.png" alt="login">로그인</a></li>
+        <li><a href="#"><img src="miumiuicon/botmenu_check.png" alt="login">Korea,Republic Of/Korean</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <section>
+    <div class="latebox">
+
+      <div class="radiusbox">
+        <a href="lete_sub.html">
+          <div class="radius"></div>
+        </a>
+      </div>
+
+      <div class="price">
+        <p>자수 로고 장식 코튼 티셔츠<br> ￦960,000</p>
+        <a href="#"><img src="miumiuicon/botmenu_wish.png" alt="ht"></a>
+      </div>
+
+      <div class="color">
+        <p>색상 : 화이트</p>
+        <a href="#"></a>
+      </div>
+
+      <div class="size">
+        <p>사이즈 선택 :</p>
+        <span>XS</span>
+        <span>S</span>
+        <span>M</span>
+        <span>L</span>
+        <span>XL</span>
+        <span>XXL</span>
+      </div>
+
+      <div class="size2">
+        <img src="miumiuicon/size.png" alt="size">
+        <p>사이즈 안내</p>
+      </div>
+
+      <div class="box">
+        <p>장바구니 추가하기</p>
+      </div>
+      <div class="box2">
+        <p>매장찾기</p>
+      </div>
+
+
+
+      <div class="article">
+        <h3>제품 상세 정보</h3>
+        <p>제품 코드 MJL862_1YXT_F0009_S_232</p>
+        <p>편안하고 캐주얼한 스타일의 코튼 티와 미우미우 토널 로고의 <br>아이코닉하고 독특한 애티튜드를 혼합했습니다. <br>오버사이즈 라인에서 캐주얼한 여성스러움이 느껴집니다.</p>
+        <p>
+          - 오버사이즈 핏<br>
+          - 크루넥<br>
+          - 긴팔<br>
+          - 자수 로고<br>
+          - 트윈 니들 밑단<br>
+          - 제조자명: Prada SpA <br>
+          - 수입자명: (유)프라다 코리아 <br>
+          - 특별한 관리가 필요한 제품입니다. 관리법은 FAQ 를<br> 참고하시기 바랍니다. 품질 보증 기간은 1년입니다.
+          <br>자세한 사항은 이용 약관 을 참고하시기 바랍니다. 원산지 정보
+        </p>
+        <p>
+          h. 75 cm
+          <br><br>
+          혼용률
+          <br><br>
+          100% 면
+        </p>
+      </div>
+
+
+      <div class="option">
+        <a href="#">
+          <p>배송 및 결제 옵션</p>
+        </a>
+        <a href="#">
+          <p>도움이 필요하신가요?</p>
+        </a>
+      </div>
+
+      <div class="package">
+        <img src="miumiuicon/pak.png" alt="package">
+        <p>미우미우 패키징</p>
+        <p>미우미우의 각 주문 제품은 지속가능하게 디자인<br> 및 제작된 패키징에 담겨 배송됩니다.</p>
+      </div>
+    </div>
+    </div> <!-- letebox끝 -->
+
+
+    <div data-aos="fade-up" class="wish">
+      <h3>관심 항목</h3>
+      <div class="wishbox">
+        <div class="wi1">
+          <a href="#"><img src="miumiuimg/mobileproduct/sub1 (1).png" alt="1"></a>
+          <h5>자수 로고 장식 코튼 저지 티셔츠</h5><br>
+          <p>￦840,000</p>
+        </div>
+        <div class="wi2">
+          <a href="#"><img src="miumiuimg/mobileproduct/sub1 (2).png" alt="2"></a>
+          <h5>자수 장식 코튼 티셔츠</h5><br>
+          <p>￦1,390,000</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="tabletwish">
+      <h3>관심 항목</h3>
+
+      <div data-aos="fade-up" class="t_wishbox">
+        <div class="t_wi1">
+          <a href="#"><img src="miumiuimg/mobileproduct/sub1 (1).png" alt="1"></a>
+          <h5>자수 로고 장식 코튼 저지 티셔츠</h5><br>
+          <p>￦840,000</p>
+        </div>
+        <div class="t_wi2">
+          <a href="#"><img src="miumiuimg/mobileproduct/sub1 (2).png" alt="2"></a>
+          <h5>자수 장식 코튼 티셔츠</h5><br>
+          <p>￦1,390,000</p>
+        </div>
+        <div class="t_wi3">
+          <a href="#"><img src="miumiuimg/mobileproduct/sub1 (3).png" alt="3"></a>
+          <h5>프린트 코튼 티셔츠</h5><br>
+          <p> ₩ 1,250,000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer>
+    <!-- footertop -->
+    <div class="footertop">
+
+      <ul data-aos="fade-up" class="footerlist">
+        <li id="nav1" class="accordion-toggle">
+          <a class="footer-link" href="#">
+            <img src="miumiuicon/footertop_white.png" alt="ftb">회사소개</a>
+        </li>
+        <ul class="footerlist accordion-content">
+          <li><a href="#">매장찾기</a></li>
+          <li><a href="#">프라다 그룹</a></li>
+          <li><a href="#">사회적 책임</a></li>
+          <li><a href="#">Fondazione Prada</a></li>
+          <li><a href="#">채용정보</a></li>
+        </ul>
+
+        <li id="nav2" class="accordion-toggle">
+          <a class="footer-link" href="#">
+            <img src="miumiuicon/footertop_white.png" alt="ftb">클라이언트 서비스</a>
+        </li>
+        <ul class="footerlist accordion-content">
+          <li><a href="#">미우미우 서비스</a></li>
+          <li><a href="#">문의하기</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">반품</a></li>
+          <li><a href="#">주문추적</a></li>
+        </ul>
+
+
+        <li id="nav3" class="accordion-toggle">
+          <a class="footer-link" href="#">
+            <img src="miumiuicon/footertop_white.png" alt="ftb">법적 고지 및 이용약관</a>
+        </li>
+        <ul class="footerlist accordion-content">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보 처리방침</a></li>
+          <li><a href="#">쿠키 정책</a></li>
+          <li><a href="#">판매 약관</a></li>
+          <li><a href="#">사이트맵</a></li>
+        </ul>
+
+        <li id="nav4" class="accordion-toggle">
+          <a class="footer-link" href="#">
+            <img src="miumiuicon/footertop_white.png" alt="ftb">카테고리</a>
+        </li>
+        <ul class="footerlist accordion-content">
+          <li><a href="#">가방</a></li>
+          <li><a href="#">액세서리</a></li>
+          <li><a href="#">레디 투 웨어</a></li>
+          <li><a href="#">슈즈</a></li>
+          <li><a href="#">아이웨어</a></li>
+        </ul>
+      </ul>
+    </div>
+
+
+
+    <!-- footerbottom -->
+    <div class="footerbottom">
+
+      <div data-aos="fade-up" class="frb_icon">
+        <a href="https://www.facebook.com/MiuMiu"><img src="miumiuicon/facebook.png" alt="face"></a>
+        <a href="https://www.instagram.com/miumiu/"><img src="miumiuicon/instagram.png" alt="inst"></a>
+        <a href="https://twitter.com/miumiuofficial"><img src="miumiuicon/twitter.png" alt="twit"></a>
+        <a href="https://www.youtube.com/user/miumiu"><img src="miumiuicon/youtube.png" alt="yout"></a>
+      </div>
+
+      <h2 data-aos="zoom-in"><img src="miumiuicon/footerlogo.png" alt="ftlogo"></h2>
+
+
+      <div class="footerspan">
+        <address>서울시 강남구 압구정로 439 06010.</address><br>
+        <p class="company1">프라다 코리아 (유).의 모든 컨텐츠는 저작권의 보호를 받고 있습니다.</p>
+        <p class="company2">Copyright MIUMIU all rights Reserved.</p>
+      </div>
+
+      <div class="footerlast"></div>
+      <p>© PRADA 2005 - 2023 | VAT n. 213-86-18599</p>
+    </div>
+
+    <div id="contactbtn">
+      <p><a href="#"><img src="miumiuicon/contact.png" alt="ctbtn"></a></p>
+    </div>
+    </div>
+
+  </footer>
+
+
+
+
+</body>
+
+</html>
